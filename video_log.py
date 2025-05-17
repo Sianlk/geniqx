@@ -1,1 +1,1 @@
-# Facial consent video capture and logging
+# Consent system video logging logic stub

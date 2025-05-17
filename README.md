@@ -1,4 +1,2 @@
-# GENIQX Empire – Real Production System
-✅ MedTech, Consent, Dating, Education, Finance, DeleteMe (Easement), Music, NFT, Wealth, SaaS
-✅ AI Personas, Funnels, Render Deploy, GitHub CI/CD
-✅ Real Flask + Next.js + Docker + PostgreSQL full-stack architecture
+# GENIQX Working Production Stack
+Includes Flask backend, Next.js frontend, modules (MedTech, Consent, CPD), GPT logic, deploy-ready files.
