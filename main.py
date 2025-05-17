@@ -1,4 +1,4 @@
 from flask import Flask
 app = Flask(__name__)
 @app.route('/')
-def home(): return 'GENIQX Backend Live'
+def index(): return 'GENIQX Backend Live'

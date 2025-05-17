@@ -1,11 +1,9 @@
 name: Deploy
 on: [push]
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Build Frontend
-        run: docker build -t frontend ./frontend
-      - name: Build Backend
-        run: docker build -t backend ./backend
+      - run: docker build -t frontend ./geniqx/frontend
+      - run: docker build -t backend ./geniqx/backend

@@ -3,5 +3,5 @@ services:
     name: geniqx
     env: docker
     plan: starter
-    dockerfilePath: ./frontend/Dockerfile
+    dockerfilePath: ./geniqx/frontend/Dockerfile
     autoDeploy: true
