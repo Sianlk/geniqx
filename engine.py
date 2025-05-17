@@ -1,1 +1,1 @@
-# Web scraper for trends, fashion, education, legal, products
+# NLP chatbot logic with monetisation triggers

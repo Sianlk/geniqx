@@ -1,0 +1,1 @@
+# Stripe, Crypto, Affiliate, License logic

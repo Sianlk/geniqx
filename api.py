@@ -1,1 +1,1 @@
-# Flask route logic for AI endpoints
+# Flask API routes for all modules

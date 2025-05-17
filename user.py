@@ -1,1 +1,1 @@
-# SQLAlchemy user models
+# User, Admin, Subscription models
