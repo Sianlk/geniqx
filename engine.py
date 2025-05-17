@@ -1,0 +1,1 @@
+# Web scraper for trends, fashion, education, legal, products

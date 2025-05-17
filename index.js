@@ -1,1 +1,1 @@
-export default function Home() { return (<div>GENIQX Dashboard</div>); }
+export default function Home() { return (<div>Welcome to GENIQX</div>); }

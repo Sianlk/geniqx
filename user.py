@@ -1,1 +1,1 @@
-class User: pass
+# SQLAlchemy user models

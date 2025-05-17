@@ -1,1 +1,1 @@
-# Admin wealth/module toggling
+# Admin-level control of modules, monetisation, alerts
