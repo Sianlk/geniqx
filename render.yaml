@@ -2,6 +2,3 @@ services:
   - type: web
     name: geniqx
     env: docker
-    plan: starter
-    dockerfilePath: ./geniqx/frontend/Dockerfile
-    autoDeploy: true
