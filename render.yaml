@@ -1,4 +1,13 @@
 services:
   - type: web
-    name: geniqx
+    name: nuvexa-frontend
+    env: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: out
+    branch: main
+
+  - type: web
+    name: nuvexa-backend
     env: docker
+    dockerfilePath: ./backend/Dockerfile
+    branch: main
