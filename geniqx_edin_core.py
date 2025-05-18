@@ -1,12 +1,9 @@
-# backend/app/routes/geniqx_edin_core.py
-
 from flask import Blueprint, request, jsonify
 from datetime import datetime
 import uuid
 
 edin_bp = Blueprint("edin", __name__)
 
-# Curriculum slots
 edin_curriculum = {
     "maths_primary": ["place value", "addition", "ST-maths visual logic"],
     "english_secondary": ["sentence builder", "creative writing", "GCSE model answer"],
@@ -15,7 +12,6 @@ edin_curriculum = {
     "diagnostic_cat": ["quantitative reasoning", "spatial", "non-verbal", "verbal"]
 }
 
-# Diagnostic AI
 edin_diagnostics = []
 
 @edin_bp.route("/edin/curriculum/<path:subject>", methods=["GET"])
