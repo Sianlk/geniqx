@@ -1,8 +1,5 @@
-# backend/app/routes/geniqx_edin_examgen.py
-
 from flask import Blueprint, request, jsonify
 from datetime import datetime
-import random
 import uuid
 
 examgen_bp = Blueprint("edin_examgen", __name__)
