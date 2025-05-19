@@ -1,3 +1,3 @@
-# OverlayMedix™ AR Scanner & Injectables Grid
+# FlowBoard™ CPD + Course Builder
 
-AI-driven facial/body mapping tool for treatment zones, diagnostics, and real-time AI guidance — integrated into Nuvexa and MedFusion with consent and medical lockout protections.
+Create modular, AI-enhanced learning tracks, certification courses, CPD bundles, quizzes, worksheets, and vault-sellable content. Built for neurodivergent learning, white-labeled under ElysianEase.

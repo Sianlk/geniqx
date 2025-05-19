@@ -1,0 +1,1 @@
+Users can specify keep-list (e.g. keep Instagram and LinkedIn). All unchecked items remain safe from deletion logic. VaultX unlock recommended for full wipe tier.
