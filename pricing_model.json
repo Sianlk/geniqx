@@ -1,0 +1,12 @@
+{
+  "store_currency": "CoreBits",
+  "premium_currency": "VaultGems",
+  "items": [
+    {"name": "VaultX Prime", "cost": 950, "currency": "CoreBits"},
+    {"name": "Legend Drop Pack", "cost": 2000, "currency": "CoreBits"},
+    {"name": "Brain Booster Bundle", "cost": 1200, "currency": "CoreBits"},
+    {"name": "Creator Collab Set", "cost": 1500, "currency": "CoreBits"},
+    {"name": "NeuroStarter Pack", "cost": 600, "currency": "CoreBits", "real_world_price": "$4.99"},
+    {"name": "Vault Gem Cache", "cost": 100, "currency": "VaultGems", "real_world_price": "$9.99"}
+  ]
+}

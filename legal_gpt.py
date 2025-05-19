@@ -1,2 +1,1 @@
-def rebuild(data):
-    return f"Rebuilt logic based on input: {data}"
+def draft_court_bundle(): return 'C100, D63 forms auto-generated.'

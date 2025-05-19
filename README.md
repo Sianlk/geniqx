@@ -1,5 +1,3 @@
-# GENI AI-R™
-Genesis Evolving Neural Intelligence - Reality Kernel
+# VaultX Store System
 
-Self-healing, self-evolving master AI engine for all GENIQX modules.
-Includes GPT/Claude/DeepSeek fusion, agent deployment, mutation engine, anonymisation, and branding control.
+This is a Fortnite-style in-game store system powered by GENI AI.
