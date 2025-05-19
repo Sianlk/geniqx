@@ -1,3 +1,3 @@
-# Tutorum
+# CoreAgent
 
-Advanced AI education and CPD platform with interactive lesson generation, AI tutors, quizzes, and certification. Neurodivergent-optimised and NFT-cert enabled.
+AI Persona Generator and Deployment Engine for business, learning, branding, and monetisation. Deploys across web, chat, social, and voice.

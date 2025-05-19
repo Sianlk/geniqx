@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: tutorium-backend
+    name: coreagent-backend
     env: docker
     dockerfilePath: ./Dockerfile
     startCommand: "python backend/app.py"
