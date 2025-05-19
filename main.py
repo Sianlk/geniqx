@@ -1,6 +1,5 @@
 from fastapi import FastAPI
-app = FastAPI()
+from routes import store
 
-@app.get("/status")
-def read_status():
-    return {"status": "COMMANDCORE is live", "modules": ["VaultX", "GENZ", "Nuvexa", "LexPrime", "AffiliateX", "OverlayMedix", "VisionCraft", "DropBooth", "MedFusion", "NeuroX", "GPT Agents"]}
+app = FastAPI()
+app.include_router(store.router, prefix="/api/store")

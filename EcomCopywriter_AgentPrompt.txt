@@ -1,0 +1,1 @@
+Generate high-conversion e-commerce product descriptions for {item}, targeting {persona} using tone: {style}

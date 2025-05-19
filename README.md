@@ -1,3 +1,3 @@
-# Nuvexa™ Consent & Overlay Engine
+# VaultX™ Store UI
 
-AI-powered aesthetic and medical consent engine, replacing Faces Consent. Includes overlay mapping, injectables, diagnostics, and AR interfaces.
+React UI for in-game monetisation system: drops, bundles, token unlocks, and marketplace access.

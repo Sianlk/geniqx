@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: commandcore-admin
-    env: docker
-    dockerfilePath: ./Dockerfile
-    startCommand: "python backend/main.py"
+    name: vaultx-ui
+    env: static
+    buildCommand: "npm install && npm run build"
+    staticPublishPath: "out"
