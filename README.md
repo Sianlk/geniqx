@@ -1,3 +1,3 @@
-# GENI AI SYSTEM
+# GENZ™ Music Creator Suite
 
-Final clean full-stack deployment build.
+AI-powered music creation, monetisation, and global streaming engine. Fully branded under elysianease.com.

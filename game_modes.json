@@ -1,0 +1,10 @@
+{
+  "modes": {
+    "Times Table Blitz": {"type": "math", "range": "1-12", "mode": "timed"},
+    "Focus Rush": {"type": "attention", "duration": "90s", "rule": "non-repeat pattern"},
+    "Memory Grid": {"type": "visual", "pattern": "increasing tiles"},
+    "Logic Circuits": {"type": "puzzle", "logic": "AND/OR/NOT flow"},
+    "Speed Puzzle": {"type": "reflex", "reaction_time": "<1.5s"},
+    "Escape Room Math": {"type": "mixed", "challenges": ["fractions", "algebra", "geometry"]}
+  }
+}

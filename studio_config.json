@@ -1,0 +1,6 @@
+{
+  "modules": ["lyricmind", "voiceforge", "visionsync", "drops", "upload_portal"],
+  "default_output_format": "mp3",
+  "monetisation": true,
+  "drop_nfts_enabled": true
+}

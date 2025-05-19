@@ -1,0 +1,9 @@
+{
+  "personas": [
+    {"name": "Nova Saint", "style": "UK Rap/Drill"},
+    {"name": "ECHO-LUX", "style": "Synth-Pop"},
+    {"name": "TYRIXX", "style": "Afrobeats"},
+    {"name": "Valence Grey", "style": "Rock/Metal"},
+    {"name": "NeonChild", "style": "EDM/Hyperpop"}
+  ]
+}

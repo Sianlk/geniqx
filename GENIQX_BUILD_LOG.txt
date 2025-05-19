@@ -1,0 +1,14 @@
+GENZ MUSIC CREATOR SUITE - MODULE INDEX
+
+INCLUDED MODULES:
+-----------------
+- GENZ Studio Core (Online DAW structure)
+- LyricMind AI Ghostwriter Engine
+- VoiceForge Vocal Synthesizer AI
+- VisionSync Lyric-Aware Video Generator
+- GENZ Drops Monetisation Engine (VaultX Connected)
+- AI Artist Personas and Label Blueprint
+- Streaming Monetisation Map (TikTok, YouTube, Spotify)
+- GENIQX Build Compliance Log (under elysianease.com)
+
+This build includes base scaffolding for backend + config files for frontend + AI logic outlines.
