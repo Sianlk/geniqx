@@ -1,3 +1,3 @@
-# GENZ™ Music Creator Suite
+# OverlayMedix™ AR Scanner & Injectables Grid
 
-AI-powered music creation, monetisation, and global streaming engine. Fully branded under elysianease.com.
+AI-driven facial/body mapping tool for treatment zones, diagnostics, and real-time AI guidance — integrated into Nuvexa and MedFusion with consent and medical lockout protections.

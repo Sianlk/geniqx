@@ -1,0 +1,10 @@
+{
+  "zones": {
+    "Forehead": {"ml_range": "0.5-1.0", "risk": "Low"},
+    "Temples": {"ml_range": "0.3-0.5", "risk": "Medium"},
+    "Cheeks": {"ml_range": "0.5-1.2", "risk": "Low"},
+    "Jawline": {"ml_range": "0.4-1.0", "risk": "Medium"},
+    "Neck": {"ml_range": "0.2-0.6", "risk": "High"},
+    "Shoulders": {"ml_range": "0.2-0.8", "risk": "Experimental"}
+  }
+}
