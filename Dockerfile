@@ -1,5 +1,5 @@
 FROM python:3.11-slim
 WORKDIR /app
 COPY . /app
-RUN pip install transformers flask
-CMD ["python", "kernel_core.py"]
+RUN pip install flask flask-cors reportlab
+CMD ["python", "backend/app.py"]

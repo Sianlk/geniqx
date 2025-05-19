@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: geni-ai-r
+    name: tutorium-backend
     env: docker
     dockerfilePath: ./Dockerfile
-    startCommand: "python kernel_core.py"
+    startCommand: "python backend/app.py"
