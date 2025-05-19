@@ -1,9 +1,5 @@
-# GENI CommandCore™
+# GENI AI-R™
+Genesis Evolving Neural Intelligence - Reality Kernel
 
-GENIQX Supreme Admin Console powered by GENI AI-R.
-Control AI modules, agents, revenue systems, and global mutations.
-
-- Toggle modules and AI behaviors
-- Inject new GPT agents on the fly
-- Monitor global revenue and risk
-- Rebuild and evolve modules in real-time
+Self-healing, self-evolving master AI engine for all GENIQX modules.
+Includes GPT/Claude/DeepSeek fusion, agent deployment, mutation engine, anonymisation, and branding control.
