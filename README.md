@@ -1,3 +1,3 @@
-# CoreAgent
+# GENI AI.MARKETHUB™
 
-AI Persona Generator and Deployment Engine for business, learning, branding, and monetisation. Deploys across web, chat, social, and voice.
+Unified marketplace and storefront engine for all GENIQX modules. Sell, license, track, and monetise products, services, NFTs, and subscriptions.

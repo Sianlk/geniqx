@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: coreagent-backend
+    name: geni-markethub-backend
     env: docker
     dockerfilePath: ./Dockerfile
     startCommand: "python backend/app.py"

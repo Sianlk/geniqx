@@ -1,1 +1,7 @@
-CREATE TABLE mutations (id SERIAL PRIMARY KEY, module TEXT, timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
+CREATE TABLE products (
+  id SERIAL PRIMARY KEY,
+  name TEXT,
+  type TEXT,
+  price NUMERIC,
+  affiliate_enabled BOOLEAN
+);
