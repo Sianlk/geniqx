@@ -1,0 +1,5 @@
+{
+  "agents": ["LegalGPT", "MusicGPT", "GrowthGPT", "FusionGPT"],
+  "engine": "GPT-4o",
+  "fallback": ["Claude 3", "DeepSeek"]
+}

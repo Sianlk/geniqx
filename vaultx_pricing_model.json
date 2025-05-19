@@ -1,0 +1,16 @@
+{
+  "currency_system": {
+    "CoreBits": "primary",
+    "VaultGems": "premium",
+    "VaultKeys": "legendary",
+    "Synapz": "learning_reward"
+  },
+  "pricing": {
+    "VaultX Prime": 950,
+    "Legend Drop Pack": 2000,
+    "Brain Booster Bundle": 1200,
+    "Creator Collab Set": 1500,
+    "NeuroStarter Pack": 600,
+    "Vault Gem Cache": 100
+  }
+}

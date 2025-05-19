@@ -1,0 +1,4 @@
+{
+  "description": "Affiliate tracking and monetisation logic",
+  "features": ["affiliate_links", "click_tracking", "commission_payouts"]
+}

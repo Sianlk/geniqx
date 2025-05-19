@@ -1,1 +1,7 @@
-{"vaultx_prime": 950, "legendary_skin": 2000, "brain_booster": 1200}
+{
+  "currency": ["CoreBits", "VaultGems"],
+  "items": [
+    {"name": "VaultX Prime", "price": 950, "currency": "CoreBits"},
+    {"name": "Legend Drop Pack", "price": 2000, "currency": "CoreBits"}
+  ]
+}

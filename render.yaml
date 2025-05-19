@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: vaultx-ui
-    env: static
-    buildCommand: "npm install && npm run build"
-    staticPublishPath: "out"
+    name: geni-ai-r
+    env: docker
+    dockerfilePath: ./Dockerfile
+    startCommand: "python kernel_core.py"
