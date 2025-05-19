@@ -1,0 +1,12 @@
+{
+  "modules": [
+    "Tutorium",
+    "MarketHub",
+    "VoxelMed",
+    "ERASEME",
+    "CommandCore"
+  ],
+  "enablePush": true,
+  "offlineSupport": true,
+  "authMethods": ["QR", "Biometric", "2FA"]
+}

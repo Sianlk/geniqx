@@ -1,0 +1,5 @@
+Genesis Mobile Launcher™
+Theme: GENIQX Dark Mode
+Accent: Electric Cyan / Magenta / Legal Black
+Logo: Custom SVG Required
+Fonts: Inter, Satoshi, DM Mono

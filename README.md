@@ -1,3 +1,9 @@
-# GENI AI.MARKETHUB™
+# ERASEME™
 
-Unified marketplace and storefront engine for all GENIQX modules. Sell, license, track, and monetise products, services, NFTs, and subscriptions.
+Your Right to Disappear. Enforced by AI.
+
+Includes:
+- Web + dark web scraping
+- ICO + GDPR complaint filing
+- NFT-locked erasure receipts
+- Admin controls and user vault
