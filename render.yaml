@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: geni-ai-r
+    name: geni-ai-system
     env: docker
     dockerfilePath: ./Dockerfile
-    startCommand: "python kernel_core.py"
+    startCommand: "python geni_ai_r/core_kernel.py"

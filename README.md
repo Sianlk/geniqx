@@ -1,3 +1,3 @@
-# VaultX Store System
+# GENI AI SYSTEM
 
-This is a Fortnite-style in-game store system powered by GENI AI.
+Final clean full-stack deployment build.
