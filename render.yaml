@@ -1,13 +1,12 @@
 services:
   - type: web
-    name: nuvexa-frontend
-    env: static
-    buildCommand: npm install && npm run build
-    staticPublishPath: out
-    branch: main
+    name: geni-commandcore-backend
+    env: docker
+    dockerfilePath: ./Dockerfile
+    startCommand: "python backend/app.py"
 
   - type: web
-    name: nuvexa-backend
-    env: docker
-    dockerfilePath: ./backend/Dockerfile
-    branch: main
+    name: geni-commandcore-frontend
+    env: static
+    buildCommand: "npm install && npm run build"
+    staticPublishPath: "frontend/out"
