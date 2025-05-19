@@ -1,3 +1,3 @@
-# FlowBoard™ CPD + Course Builder
+# Nuvexa™ Consent & Overlay Engine
 
-Create modular, AI-enhanced learning tracks, certification courses, CPD bundles, quizzes, worksheets, and vault-sellable content. Built for neurodivergent learning, white-labeled under ElysianEase.
+AI-powered aesthetic and medical consent engine, replacing Faces Consent. Includes overlay mapping, injectables, diagnostics, and AR interfaces.

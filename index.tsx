@@ -1,18 +1,11 @@
-export default function DropBoothStore() {
-  const products = ["VaultX Templates", "VisionCraft Packs", "1-on-1 Consult", "Exclusive Audio Drop", "Ebook Course", "AI Persona Script"];
-
+export default function NuvexaOverlay() {
   return (
     <main className="p-8">
-      <h1 className="text-4xl text-emerald-500 font-bold">DropBooth™ Creator Shop</h1>
-      <p className="mt-2 text-white">Sell your vaults, drops, AI bundles, courses, or offers — with token paygating, affiliate triggers, and impulse viral hooks.</p>
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mt-6">
-        {products.map(name => (
-          <div key={name} className="p-4 border border-emerald-500 rounded bg-black text-white">
-            <h3 className="font-semibold">{name}</h3>
-            <p className="text-sm text-gray-400">Token unlock · DRM protected</p>
-            <button className="mt-2 px-3 py-1 bg-emerald-500 text-black rounded">Buy Now</button>
-          </div>
-        ))}
+      <h1 className="text-3xl font-bold text-pink-600">Nuvexa™: Patient Consent & Overlay System</h1>
+      <p className="mt-2 text-white">Facial scan overlays, injectables planner, treatment logs, and patient video recall UI.</p>
+      <div className="mt-6">
+        <button className="bg-pink-500 px-4 py-2 rounded text-black font-semibold hover:bg-pink-400">Start Scan</button>
+        <button className="bg-white px-4 py-2 ml-4 rounded text-pink-600 font-semibold border border-pink-600">Consent Form</button>
       </div>
     </main>
   );
