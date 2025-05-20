@@ -1,3 +1,3 @@
-# BuildLogic AI™
+# FusionHarvester™
 
-AI-powered Construction and Real Estate Management Suite for planning, CAD, estimation, compliance, and contractor automation.
+AI-powered global trend and intelligence scraper for GENIQX. Scrapes, anonymises, rebrands and redistributes content to Tutorium, MarketHub, MintForge, DropX, GENZ, and ERASEME.

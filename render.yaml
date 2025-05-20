@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: buildlogic-ai-backend
+    name: fusionharvester-backend
     env: docker
     dockerfilePath: ./Dockerfile
     startCommand: "python backend/app.py"

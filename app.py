@@ -4,9 +4,9 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-@app.route("/api/buildlogic/status")
+@app.route("/api/fusionharvester/status")
 def status():
-    return {"status": "BuildLogic AI is operational"}
+    return {"status": "FusionHarvester™ is live"}
 
 if __name__ == "__main__":
     app.run(debug=True)

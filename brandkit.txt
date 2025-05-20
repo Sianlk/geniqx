@@ -1,5 +1,5 @@
-BuildLogic AI™ Branding:
-Tagline: From Blueprint to Buildsite — AI First.
-Palette: Concrete Gray, Caution Yellow, Blueprint Blue
-Fonts: Eurostile, JetBrains Mono
-Voice: Technical. Reliable. Authoritative.
+FusionHarvester™ Branding:
+Tagline: Intelligence Unleashed.
+Color Palette: Deep Navy, Electric Lime
+Fonts: Inter, JetBrains Mono
+Voice: Fast. Forensic. Invisible.
