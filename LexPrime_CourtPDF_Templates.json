@@ -1,4 +1,0 @@
-{
-  "forms": ["C100", "Form A", "D63", "C1A"],
-  "fields": ["child_name", "respondent", "allegations", "orders_requested"]
-}

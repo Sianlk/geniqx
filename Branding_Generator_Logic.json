@@ -1,4 +1,0 @@
-{
-  "inputs": ["product_name", "target_audience", "style"],
-  "outputs": ["brand_name", "tagline", "logo_style", "font"]
-}

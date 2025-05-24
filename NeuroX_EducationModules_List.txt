@@ -1,6 +1,0 @@
-- Times Tables Game
-- Brain Maze
-- Focus Rush
-- Logic Blitz
-- Escape Room Algebra
-- Speech Builder

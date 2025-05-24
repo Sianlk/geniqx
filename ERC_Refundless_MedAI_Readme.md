@@ -1,1 +1,0 @@
-Refundless ERC System: AI verifies eligibility before purchase; auto-locks post-purchase access. Integrates with VaultX + Nuvexa.

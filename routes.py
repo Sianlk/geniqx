@@ -1,1 +1,0 @@
-def generate_affiliate_link(user_id): return f"https://geniqx.app/a/{user_id}"

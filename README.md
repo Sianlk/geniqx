@@ -1,3 +1,2 @@
-# FusionHarvester™
-
-AI-powered global trend and intelligence scraper for GENIQX. Scrapes, anonymises, rebrands and redistributes content to Tutorium, MarketHub, MintForge, DropX, GENZ, and ERASEME.
+# GENIQX Working Production Stack
+Includes Flask backend, Next.js frontend, modules (MedTech, Consent, CPD), GPT logic, deploy-ready files.

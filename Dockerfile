@@ -1,5 +1,5 @@
-FROM python:3.11-slim
+FROM python:3.11
 WORKDIR /app
-COPY . /app
-RUN pip install flask flask-cors beautifulsoup4 requests
-CMD ["python", "backend/app.py"]
+COPY . .
+RUN pip install -r requirements.txt
+CMD ["python", "app/main.py"]
