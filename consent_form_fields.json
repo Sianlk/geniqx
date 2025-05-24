@@ -1,3 +1,0 @@
-{
-  "fields": ["patient_name", "dob", "treatment_type", "area_of_concern", "allergies", "consent_checkbox", "digital_signature"]
-}

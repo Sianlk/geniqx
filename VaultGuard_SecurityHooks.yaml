@@ -1,4 +1,0 @@
-telemetry:
-  - imei_lock: true
-  - fingerprint_track: true
-  - vault_hash_protect: true

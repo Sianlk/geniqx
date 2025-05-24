@@ -1,7 +1,0 @@
-{
-  "currency": ["CoreBits", "VaultGems"],
-  "items": [
-    {"name": "VaultX Prime", "price": 950, "currency": "CoreBits"},
-    {"name": "Legend Drop Pack", "price": 2000, "currency": "CoreBits"}
-  ]
-}

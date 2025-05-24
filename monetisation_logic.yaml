@@ -1,9 +1,0 @@
-vaultx:
-  pricing_strategy: fortnite_style
-  subscription_model: battle_pass
-  currency_tiers:
-    - CoreBits
-    - VaultGems
-    - VaultKeys
-    - Synapz
-  lock_mechanism: IMEI + device fingerprint
