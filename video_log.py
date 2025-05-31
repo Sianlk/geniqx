@@ -1,0 +1,1 @@
+# Consent system video logging logic stub
