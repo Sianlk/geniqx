@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MarketMintAI</title>
+</head>
+<body>
+  <h2>Create New Product</h2>
+  <form id="productForm">
+    <input type="text" id="title" placeholder="Title" required />
+    <textarea id="description" placeholder="Description" required></textarea>
+    <input type="number" id="price" placeholder="Price" required />
+    <input type="text" id="tags" placeholder="Tags" />
+    <input type="file" id="file" />
+    <button type="submit">Submit</button>
+  </form>
+
+  <div id="preview"></div>
+
+  <script>
+    const form = document.getElementById('productForm');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const formData = new FormData();
+      formData.append('file', document.getElementById('file').files[0]);
+
+      const uploadRes = await fetch('http://localhost:4201/upload', {
+        method: 'POST',
+        body: formData
+      });
+
+      const uploadData = await uploadRes.json();
+
+      const product = {
+        title: document.getElementById('title').value,
+        description: document.getElementById('description').value,
+        price: parseFloat(document.getElementById('price').value),
+        tags: document.getElementById('tags').value.split(',')
+      };
+
+      const productRes = await fetch('http://localhost:4201/product', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(product)
+      });
+
+      const productData = await productRes.json();
+      document.getElementById('preview').innerText =
+        '✅ Product created with ID: ' + productData.product.id;
+    });
+  </script>
+</body>
+</html>
+
