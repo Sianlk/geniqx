@@ -1,0 +1,47 @@
+=============== Jun 1, 2025 (UTC) ===============
+18:54:20.765324 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:54:20.767676 db@open opening
+18:54:20.768607 version@stat F·[] S·0B[] Sc·[]
+18:54:20.769437 db@janitor F·2 G·0
+18:54:20.769446 db@open done T·1.763593ms
+19:50:53.144701 db@close closing
+19:50:53.146567 db@close done T·1.902448ms
+=============== Jun 1, 2025 (UTC) ===============
+19:52:44.851491 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:52:44.852220 version@stat F·[] S·0B[] Sc·[]
+19:52:44.852241 db@open opening
+19:52:44.852278 journal@recovery F·1
+19:52:44.852845 journal@recovery recovering @1
+19:52:44.897658 memdb@flush created L0@2 N·5243 S·175KiB "loc..seq,v2":"version,v1"
+19:52:44.899346 version@stat F·[1] S·175KiB[175KiB] Sc·[0.25]
+19:52:44.901934 db@janitor F·3 G·0
+19:52:44.901951 db@open done T·49.703907ms
+22:47:44.420354 db@close closing
+22:47:44.423874 db@close done T·3.518177ms
+=============== Jun 1, 2025 (UTC) ===============
+23:09:06.534948 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:09:06.535476 version@stat F·[1] S·175KiB[175KiB] Sc·[0.25]
+23:09:06.535491 db@open opening
+23:09:06.535521 journal@recovery F·1
+23:09:06.535811 journal@recovery recovering @3
+23:09:06.562267 memdb@flush created L0@5 N·16117 S·419KiB "loc..seq,v5245":"n:\xff..ail,v6725"
+23:09:06.563059 version@stat F·[2] S·594KiB[594KiB] Sc·[0.50]
+23:09:06.565974 db@janitor F·4 G·0
+23:09:06.565993 db@open done T·30.495157ms
+23:09:06.572172 table@compaction L0·2 -> L1·0 S·594KiB Q·21362
+23:09:06.581231 table@build created L1@8 N·8600 S·392KiB "loc..seq,v5245":"version,v1"
+23:09:06.581269 version@stat F·[0 1] S·392KiB[0B 392KiB] Sc·[0.00 0.00]
+23:09:06.583338 table@compaction committed F-1 S-201KiB Ke·0 D·12760 T·11.130937ms
+23:09:06.584212 table@remove removed @2
+=============== Jun 2, 2025 (UTC) ===============
+05:22:53.970865 memdb@flush N·42060 S·3MiB
+05:22:54.000101 memdb@flush created L0@10 N·42060 S·1MiB "loc..seq,v21363":"n:\xff..ail,v40954"
+05:22:54.000481 version@stat F·[1 1] S·1MiB[1MiB 392KiB] Sc·[0.25 0.00]
+05:22:54.002628 memdb@flush committed F·1 T·30.576198ms
+05:22:54.003637 journal@remove removed @6
+05:23:45.718521 table@compaction L0·1 -> L1·1 S·1MiB Q·63626
+05:23:45.768143 table@build created L1@11 N·22631 S·1007KiB "loc..seq,v21363":"version,v1"
+05:23:45.768212 version@stat F·[0 1] S·1007KiB[0B 1007KiB] Sc·[0.00 0.01]
+05:23:45.771045 table@compaction committed F-1 S-439KiB Ke·0 D·28029 T·52.465989ms
+05:23:45.771372 table@remove removed @10
+05:23:45.771467 table@remove removed @8
