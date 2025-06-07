@@ -1,16 +1,21 @@
 {
-  "name": "geniqx-nft",
+  "name": "sovereign_chain",
   "version": "1.0.0",
-  "type": "module",
-  "main": "mintNFT.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node mintNFT.js 0x11A2357d37fA2a6da113412ed41B2f86b6629348 https://ipfs.io/ipfs/QmYourCID",
-    "preinstall": "echo ''"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "funding": [],
-  "private": true,
-  "dependencies": {
-    "dotenv": "^16.3.1",
-    "ethers": "^6.14.3"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.5.0",
+    "ethers": "^6.14.3",
+    "hardhat": "^2.24.1"
+  },
+  "directories": {
+    "test": "test"
   }
 }

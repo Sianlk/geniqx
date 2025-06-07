@@ -1,16 +1,19 @@
 {
-  "name": "blockchain",
+  "name": "geniqx-blockchain",
   "version": "1.0.0",
-  "main": "index.js",
+  "type": "module",
+  "main": "mintNFT.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node mintNFT.js 0x11A2357d37fA2a6da113412ed41B2f86b6629348 https://ipfs.io/ipfs/QmYourCID",
+    "preinstall": "echo ''"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "funding": [],
+  "engines": {
+    "node": ">=16"
+  },
+  "private": true,
   "dependencies": {
-    "dotenv": "^16.5.0",
+    "dotenv": "^16.3.1",
     "ethers": "^6.14.3"
   }
 }
