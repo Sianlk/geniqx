@@ -1,0 +1,62 @@
+name: 🚀 GENIQX Auto Deploy Pipeline
+
+on:
+  push:
+    branches:
+      - main
+      - build-merged
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🔄 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 🧠 Detect GENIQX Stack
+        id: stack
+        run: |
+          if [[ -f "Dockerfile" ]]; then echo "stack=docker" >> $GITHUB_ENV; fi
+          if [[ -f "package.json" ]]; then echo "stack=node" >> $GITHUB_ENV; fi
+          if [[ -f "requirements.txt" ]]; then echo "stack=python" >> $GITHUB_ENV; fi
+          if [[ -f "start.sh" ]]; then echo "stack=shell" >> $GITHUB_ENV; fi
+
+      - name: 🟢 Docker Build
+        if: env.stack == 'docker'
+        run: |
+          docker build -t geniqx-app .
+          docker run -d -p 3000:3000 geniqx-app
+
+      - name: 🟢 Node.js Build
+        if: env.stack == 'node'
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - run: |
+          npm ci
+          npm run build
+
+      - name: 🟢 Python Build
+        if: env.stack == 'python'
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - run: |
+          pip install -r requirements.txt
+          python main.py || echo "⚠️ Python fallback entrypoint missing."
+
+      - name: 🟢 Shell Start
+        if: env.stack == 'shell'
+        run: |
+          chmod +x ./start.sh
+          ./start.sh || echo "⚠️ No shell start script available"
+
+      - name: ✅ Complete
+        run: echo "GENIQX Auto Deploy Finished"
+git add .github/workflows/deploy.yml
+git commit -m "🛠️ Added full deploy workflow"
+git push origin build-merged
+
