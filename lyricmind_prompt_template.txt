@@ -1,1 +1,0 @@
-Write a song/rap in the style of {artist}, using a theme of {emotion/mood}, targeted at {audience}. Include Hook, Chorus, 2 Verses.

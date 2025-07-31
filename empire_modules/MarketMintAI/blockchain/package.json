@@ -1,0 +1,32 @@
+git add .
+git commit -m "Resolve merge conflicts from pull"{
+  "name": "geniqx-blockchain",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "mintNFT.js",
+  "scripts": {
+    "start": "node mintNFT.js 0x11A2357d37fA2a6da113412ed41B2f86b6629348 https://ipfs.io/ipfs/QmYourCID",
+    "preinstall": "echo ''"
+  },
+  "funding": [],
+  "engines": {
+    "node": ">=16"
+  },
+  "private": true,
+  "dependencies": {
+    "dotenv": "^16.3.1",
+  "name": "blockchain",
+  "version": "1.0.0",
+  "main": "mintNFT.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "ethers": "^6.14.3"
+  }
+}

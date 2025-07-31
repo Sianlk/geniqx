@@ -1,8 +1,0 @@
-{
-  "types": ["Video", "PDF Workbook", "Quiz", "NeuroX Game", "Assignment", "AI Agent Review", "Vault Unlock"],
-  "features": {
-    "quizzes": "auto-grade, retry rules",
-    "vault_integration": "token-lock lesson drops",
-    "ai_review": "GPT feedback on submissions"
-  }
-}

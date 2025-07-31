@@ -1,0 +1,1 @@
+print("GeniAi Core Activated")

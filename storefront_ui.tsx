@@ -1,1 +1,0 @@
-export default function Storefront() { return <div>GENI MarketHub Store</div>; }

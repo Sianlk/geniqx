@@ -1,1 +1,0 @@
-def dummy(): return True

@@ -1,5 +1,0 @@
-{
-  "surface": ["Google", "Bing", "DuckDuckGo", "Facebook", "Instagram", "LinkedIn"],
-  "brokers": ["Whitepages", "BeenVerified", "Spokeo", "FastPeopleSearch"],
-  "dark_web": [".onion mirrors", "leaked pastebins", "market forums", "dump torrents"]
-}

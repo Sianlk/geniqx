@@ -1,12 +1,9 @@
-name: Deploy to Render
-
-on:
-  push:
-    branches: [main]
-
+name: Deploy GENIQX
+on: [push]
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - run: echo "Trigger deployment via Render webhooks or CLI"
+    - uses: actions/checkout@v4
+    - name: Confirm Ready
+      run: echo 'CI Ready'

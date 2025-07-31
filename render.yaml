@@ -1,5 +1,12 @@
 services:
   - type: web
+    name: geniqx
+    env: docker
+    plan: free
+    buildCommand: "./startGENIQX.sh"
+    startCommand: "python3 -m flask run --host=0.0.0.0 --port=10000"
+services:
+  - type: web
     name: fusionharvester-backend
     env: docker
     dockerfilePath: ./Dockerfile

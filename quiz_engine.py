@@ -1,1 +1,0 @@
-def generate_quiz(topic): return f'5-question quiz on {topic}'
