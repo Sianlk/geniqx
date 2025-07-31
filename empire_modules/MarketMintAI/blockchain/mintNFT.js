@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { ethers } from 'ethers';
 import 'dotenv/config';
 
@@ -28,7 +27,6 @@ async function mint() {
 }
 
 mint();
-=======
 const { ethers } = require("ethers");
 require("dotenv").config();
 
@@ -62,4 +60,3 @@ const abi = [
 
 	  	  	                      	          	    	            mintNFT(args[0], args[1]);
 	  	  	                      	          	    	            }
->>>>>>> 986cad1 (✅ Merged GENIQX Supreme Core (without node_modules))
