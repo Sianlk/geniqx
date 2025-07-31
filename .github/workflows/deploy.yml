@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+# Your current changes
+name: GENIQX Deploy
+...
+=======
+# Changes from the branch being merged
+name: Render Deploy
+...
+>>>>>>> 7b63b23...
+<<<<<<< HEAD
 name: Deploy GENIQX Production
 
 on:
@@ -44,3 +54,22 @@ jobs:
           chmod 600 key.pem
           scp -i key.pem -r ./backend $DO_USER@$DO_HOST:/var/www/geniqx/backend
           scp -i key.pem -r ./frontend/out $DO_USER@$DO_HOST:/var/www/geniqx/frontend
+=======
+run: |
+          curl -X POST "https://api.render.com/deploy/srv-d0otj7be5dus73d8olhg?key=Qdp-FVI8GIo"
+name: Deploy to Render
+
+on:
+  push:
+    branches:
+      - main  # Triggers only when pushing to main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Render Deploy Hook
+        run: |
+          curl -X POST "https://api.render.com/deploy/srv-d0otj7be5dus73d8olhg?key=Qdp-FVI8GIo"
+
+>>>>>>> 7b63b23 (✅ Add Render deploy hook workflow)
