@@ -1,0 +1,8 @@
+# Files and directories ignored by Docker builds
+node_modules
+**/__pycache__
+.env
+.git
+.gitignore
+Dockerfile
+README.md

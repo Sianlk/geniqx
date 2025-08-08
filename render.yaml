@@ -1,12 +1,14 @@
 services:
   - type: web
     name: geniqx-frontend
+    rootDir: frontend
     env: static
     buildCommand: npm install && npm run build
     staticPublishPath: out
     branch: main
   - type: web
     name: geniqx-backend
+    rootDir: backend
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn main:app --host 0.0.0.0 --port 5000
