@@ -1,46 +1,15 @@
-name: Deploy GENIQX Production
-
+name: Deploy GENIQX to Production
 on:
   push:
-    branches:
-      - main
-      - master
-
+    branches: [ main ]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v3
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-
-      - name: Install Backend Dependencies
+      - uses: actions/checkout@v3
+      - name: Set up Docker
+        uses: docker/setup-buildx-action@v2
+      - name: Build and Push to Render/DO
         run: |
-          cd backend
-          pip install -r requirements.txt
-
-      - name: Install Frontend Dependencies
-        run: |
-          cd frontend
-          npm install
-
-      - name: Build Frontend
-        run: |
-          cd frontend
-          npm run build
-
-      - name: Push to DigitalOcean via SCP
-        env:
-          DO_SSH_KEY: ${{ secrets.DO_SSH_KEY }}
-          DO_HOST: ${{ secrets.DO_HOST }}
-          DO_USER: ${{ secrets.DO_USER }}
-        run: |
-          echo "$DO_SSH_KEY" > key.pem
-          chmod 600 key.pem
-          scp -i key.pem -r ./backend $DO_USER@$DO_HOST:/var/www/geniqx/backend
-          scp -i key.pem -r ./frontend/out $DO_USER@$DO_HOST:/var/www/geniqx/frontend
+          docker compose build
+          docker compose push
