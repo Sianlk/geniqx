@@ -1,3 +1,8 @@
+# paste the YAML above, save (CTRL+O, ENTER) and exit (CTRL+X)
+
+git add .github/workflows/deploy.yml
+git commit -m "chore(ci): GENIQX deploys to Render + DO droplet"
+git push origin main
 name: Deploy GENIQX Production
 
 on:
