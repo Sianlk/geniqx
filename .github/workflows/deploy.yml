@@ -1,51 +1,25 @@
-# paste the YAML above, save (CTRL+O, ENTER) and exit (CTRL+X)
-
-git add .github/workflows/deploy.yml
-git commit -m "chore(ci): GENIQX deploys to Render + DO droplet"
-git push origin main
-name: Deploy GENIQX Production
+name: Deploy GENIQX to Production
 
 on:
   push:
-    branches:
-      - main
-      - master
+    branches: [ main ]
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v2
         with:
-          python-version: '3.11'
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - name: Install Backend Dependencies
-        run: |
-          cd backend
-          pip install -r requirements.txt
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
 
-      - name: Install Frontend Dependencies
+      - name: Build and push images
         run: |
-          cd frontend
-          npm install
-
-      - name: Build Frontend
-        run: |
-          cd frontend
-          npm run build
-
-      - name: Push to DigitalOcean via SCP
-        env:
-          DO_SSH_KEY: ${{ secrets.DO_SSH_KEY }}
-          DO_HOST: ${{ secrets.DO_HOST }}
-          DO_USER: ${{ secrets.DO_USER }}
-        run: |
-          echo "$DO_SSH_KEY" > key.pem
-          chmod 600 key.pem
-          scp -i key.pem -r ./backend $DO_USER@$DO_HOST:/var/www/geniqx/backend
-          scp -i key.pem -r ./frontend/out $DO_USER@$DO_HOST:/var/www/geniqx/frontend
+          docker compose build
+          docker compose push
